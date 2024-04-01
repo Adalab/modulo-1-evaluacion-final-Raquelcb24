@@ -1,5 +1,45 @@
-footer{
-   background-color: aqua;
+.footer{
    
-   
+   background-color: #304268;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   position: relative;
+   &__arrow{
+      /* falta mover al centro */
+      background-color: white;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      padding: 10px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      translate: 140px -50%;
+   }
+   &__nav{
+      
+      &--menu{
+         display: flex;
+         flex-direction: column;
+         line-height: 2;
+         padding-top: 50px;
+         a {
+            text-decoration: none;
+            color: white;
+         }
+      }
+   }
+   &__copy{
+      display: flex;
+      flex-direction: column;
+      line-height: 2;
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+
 }

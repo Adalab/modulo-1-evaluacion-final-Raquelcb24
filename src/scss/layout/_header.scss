@@ -1,0 +1,17 @@
+
+.header{
+    position: fixed;
+    
+    
+   &__burguer{ 
+        background-color: #0271bc;
+        padding: 2px;
+        width: 40px;
+        height: 25px;
+   }
+   
+}
+.nav{
+    display: none;
+    
+    }

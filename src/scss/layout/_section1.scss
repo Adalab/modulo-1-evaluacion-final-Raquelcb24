@@ -1,0 +1,35 @@
+.section1{
+    background-image: url(../images/cover.jpg);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    line-height: 55px;
+    color: white;
+    padding-bottom: 30px;
+
+    &__title{
+        font-size: 42px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    
+    &__link{
+        background-color: white;
+            border-radius: 50%;
+            height: 35px;
+            width: 35px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            &--arrow{
+                width: 15px;
+
+            }
+            
+       
+    }
+}

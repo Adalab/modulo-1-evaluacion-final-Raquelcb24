@@ -1,0 +1,44 @@
+.section2{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+   
+    
+    &__tips{
+        color: #8ccbea;
+        font-size: 15px;
+
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    &__text{
+       
+        color: #4a4a4a;
+        font-weight: 500;
+        line-height: 1.8;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    &__botton{
+        display: block;
+        width: 20%;
+        border: 2px solid #f26002;
+        text-align: center;
+        padding: 5px;
+        border-radius: 25px;
+        
+        &--go{
+            text-decoration: none;
+            color: #f26002;
+            font-weight: 600;
+            padding: 10px;
+            
+        }
+
+    }
+}

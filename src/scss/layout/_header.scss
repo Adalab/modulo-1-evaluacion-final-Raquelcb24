@@ -3,7 +3,6 @@
    &__burguer{ 
         position: fixed;
         background-image: url(../images/menu.png);
-        background-color: #0271bc;
         background-repeat: no-repeat;
         padding-left: 20px;
         padding-top: 20px;
@@ -17,6 +16,7 @@
     
         &__burguer{
             background-image: url(../images/menu3.png);
+            
             padding-top: 35px;
             width: 45px;
             position: fixed;

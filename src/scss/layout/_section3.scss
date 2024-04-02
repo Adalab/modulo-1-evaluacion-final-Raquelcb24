@@ -2,13 +2,14 @@
     background-color: #eff9ff;
     height: 40%;
     padding: 20px;
-   
+    
     text-align: center;
     &__title{
+        
         grid-column: 1/5;
         font-size: 24px;
         line-height: 1.5;
-        font-weight: 750;
+        font-weight: 900;
         padding-top: 10px;
     }
     &__articles{
@@ -58,13 +59,15 @@
         }
     }
     &__botton{
-        
+        :hover{
+            background-color: var(--blanco);
+            color: #f26002;
+        }
         padding-bottom: 50px;
-       
-
         &--reasons{
+            
             background-color: #f26002;
-            color: white;
+            color: var(--blanco);
             text-decoration: none;
             font-weight: 500;
             font-size: 20px;
@@ -129,7 +132,7 @@
                 }
                 &__botton{
                     :hover{
-                        background-color: white;
+                        background-color: var(--blanco);
                         color: #f26002;
                     }
                     &--reasons{
@@ -139,7 +142,7 @@
                     }
                 }
        }
-       @media all and (min-width: 768px){
+       @media all and (min-width: 1280px){
         
         &__title{
             font-size: 32px; 
@@ -179,7 +182,10 @@
                     }
                 }
                 &__botton{
-                    
+                    :hover{
+                        background-color:var(--blanco);
+                        color: #f26002;
+                    }
                     &--reasons{
                         font-size: 24px; 
                         

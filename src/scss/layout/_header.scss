@@ -2,6 +2,9 @@
 .header{
    &__burguer{ 
         position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
         background-image: url(../images/menu.png);
         background-repeat: no-repeat;
         padding-left: 20px;
@@ -30,7 +33,7 @@
               background-image: url(../images/menu3.png);
               background-size: 60px;
               background-position: center;
-              background-position-x: 5px;
+              
               height: 40px;
               width: 55px;
               position: fixed;

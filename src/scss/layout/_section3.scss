@@ -85,7 +85,7 @@
         }
             &__articles{
                 grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr 2fr ;
+                grid-template-rows:  2fr ;
                 gap: 15px;
                 padding-bottom: 50px;
                 
@@ -126,10 +126,60 @@
                     }
                 }
                 &__botton{
-                    
+                    :hover{
+                        background-color: white;
+                        color: #f26002;
+                    }
                     &--reasons{
                        padding-left: 40px;
                        padding-right: 40px;
+                        
+                    }
+                }
+       }
+       @media all and (min-width: 768px){
+        
+        &__title{
+            font-size: 32px; 
+            padding-bottom: 20px;
+        }
+            &__articles{
+                padding-top: 5px;
+                
+            }
+                &__article1{
+                    
+                    &--h3{
+                        font-size: 30px; 
+
+                    }
+                    &--text{
+                        font-size: 24px; 
+                    }
+                    
+                }
+                &__article2{
+                    
+                    &--h3{
+                        font-size: 30px; 
+                    }
+                    &--text{
+                        font-size: 24px; 
+                    }
+                }
+                &__article3{
+                    
+                    &--h3{
+                        font-size: 30px; 
+                    }
+                    &--text{
+                        font-size: 24px; 
+                    }
+                }
+                &__botton{
+                    
+                    &--reasons{
+                        font-size: 24px; 
                         
                     }
                 }

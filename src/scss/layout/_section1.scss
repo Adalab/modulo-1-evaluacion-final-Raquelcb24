@@ -54,4 +54,33 @@
             }
         }
     }
+    @media all and (min-width: 1280px){
+        height: 50vh;
+        &__title{
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-bottom: 10px;
+            align-items: center;
+            font-size: 100px;
+            
+            line-height: 1.5;
+        }
+        &__text{
+            
+            padding-bottom: 90px;
+            font-size: 30px;
+        }
+        &__link{
+            
+            height: 65px;
+            width: 65px;
+            position: relative;
+            transform: translateY(-70px);
+            
+            &--arrow{
+                width: 30px;
+                
+            }
+        }
+    }
 }

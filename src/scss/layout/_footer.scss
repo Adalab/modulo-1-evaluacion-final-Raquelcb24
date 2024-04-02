@@ -66,5 +66,18 @@
          width: 50px;
       }
    }
+   @media all and (min-width: 1280px){
+      font-size: 20px;
+      padding-left: 200px;
+      padding-right: 200px;
+      align-items: start;
+      &__copy{
+         padding-top: 50px;
+      }
+    
+      &__arrow{
+         transform: translateX(270px);
+      }
+   }
 
 }
